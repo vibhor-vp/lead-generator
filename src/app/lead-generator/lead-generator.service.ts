@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { LeadModel } from "src/models/lead.model";
+import { LeadModel } from "../../models/lead.model";
 import { LEAD_STATUS_MAPPER } from "../app.constants";
 import { AppService } from "../app.service";
 

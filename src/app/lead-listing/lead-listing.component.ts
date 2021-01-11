@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { Subject, Subscription } from "rxjs";
-import { LeadModel } from "src/models/lead.model";
+import { LeadModel } from "../../models/lead.model";
 import { AppService } from "../app.service";
 
 @Component({

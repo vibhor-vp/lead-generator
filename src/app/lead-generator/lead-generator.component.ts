@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit } from "@angular/core";
 import { NgForm } from "@angular/forms";
 import { ActivatedRoute, Router } from "@angular/router";
 import { Subscription } from "rxjs";
-import { LeadModel } from "src/models/lead.model";
+import { LeadModel } from "../../models/lead.model";
 import { AppService } from "../app.service";
 import { LeadGeneratorService } from "./lead-generator.service";
 

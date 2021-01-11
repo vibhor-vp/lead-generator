@@ -1,8 +1,8 @@
 import { Component, Input, OnInit } from "@angular/core";
-import { LEAD_CARD_IMAGES, LEAD_STATUS_MAPPER } from "src/app/app.constants";
-import { AppService } from "src/app/app.service";
-import { ToastService } from "src/app/common/toast/toast.service";
-import { LeadModel } from "src/models/lead.model";
+import { LEAD_CARD_IMAGES, LEAD_STATUS_MAPPER } from "../../../app/app.constants";
+import { AppService } from "../../../app/app.service";
+import { ToastService } from "../../../app/common/toast/toast.service";
+import { LeadModel } from "../../../models/lead.model";
 
 @Component({
     selector: 'lead-list-card',
